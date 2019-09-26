@@ -25,7 +25,7 @@ class ProjectList extends Component {
                 <div className="container-fluid ">
                     <div className="row">
                         <div className="col-11">
-                            <div className="container">
+                            <div className="container-fluid">
                                 <div className="row">
                                     <div className="col ">
                                         {this.props.projects && this.props.projects.map(project => {
@@ -90,7 +90,6 @@ class ProjectList extends Component {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
